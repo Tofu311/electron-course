@@ -1,6 +1,7 @@
 {
     "appId": "com.tofu.electronCourse",
     "files": ["dist-electron", "dist-react"],
+    "extraResources": ["dist-electron/preload.cjs"],
     "icon": "./src/appIcon.png",
     "mac": {
         "target": "dmg"
